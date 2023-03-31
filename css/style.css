@@ -129,7 +129,7 @@ img {
  ************************************************/
 
 
- /* versione tablet */
+ /* versione DESKTOP */
 
 @media screen and (max-width:1140px) {
     .container {
@@ -155,9 +155,36 @@ img {
     }
 }
 
+/* VERSIONE TABLET */
+
  @media screen and (max-width:768px) {
     .container {
         max-width: 768px;
     }
+     
+ }
+
+
+ /* VERSIONE MOBILE */
+
+ @media screen and (max-width:480px) {
+    .container {
+        
+        max-width: 480px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .row {
+        
+        
+        
+    }
+
+    .card {
+        
+    }
+
      
  }
