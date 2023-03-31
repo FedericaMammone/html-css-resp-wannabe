@@ -131,9 +131,17 @@ img {
 
  /* versione tablet */
 
+@media screen and (max-width:1140px) {
+    .container {
+        max-width: 768px;
+        
+    }
+}
+
  @media screen and (max-width:768px) {
     .container {
-        width: 768px;
+        max-width: 768px;
+        
     }
 
     
