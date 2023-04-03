@@ -159,7 +159,8 @@ img {
 
  @media screen and (max-width:768px) {
     .container {
-        max-width: 768px;
+        width: 100%;
+        
     }
      
  }
@@ -170,20 +171,18 @@ img {
  @media screen and (max-width:480px) {
     .container {
         
+        width: 100%;
         max-width: 480px;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
     }
 
     .row {
-        
+        display: block;
         
         
     }
 
-    .card {
-        
+    .lessons .col, .steps .col, .why-us .col-left, .why-us .col-right {
+        width: 100%;
     }
 
      
